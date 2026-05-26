@@ -1,0 +1,329 @@
+.roboto-uniquifier {                /*шрифт*/
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-uniquifier {                /*шрифт*/
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.logo{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: #6F6F6F;
+}
+.navigation ol{
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+h1{
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+h2{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;  
+}
+h3{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #868686;
+}
+h5{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+h6{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}    
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+li{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+h7{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #6F6F6F;
+}
+.btn{            /*кнопка "В каталог"*/
+    width: 191px;
+    height: 55px;
+    background-color: #101010;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+}
+body{                       /*цвет фона*/
+background-color: #101010;
+
+
+}
+
+
+.one_flex{
+    display: flex;
+    justify-content: space-between; /* разносит в разные стороны */
+    align-items: center;            /* выравнивает по вертикали */
+    cursor: pointer;
+    gap: 8%;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between; /* разносит в разные стороны */
+    align-items:            /* выравнивает по вертикали */
+    
+
+}
+
+.column {
+    flex: 1;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #101010;
+    padding: 5% 0;
+    color: rgb(0, 0, 0);
+    margin-top: 10%;
+    border-top: 0.5px solid #3B3939;
+
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* расстояние между блоками внутри */
+}
+.block h2 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.block h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+ 
+    margin-top: 8px;
+}
+.about{
+    padding-top: 170px;
+    padding-bottom: 120px;
+}
+
+h1{
+    font-size: 72px;
+    margin-bottom: 90px;
+    font-weight: 600;
+}
+
+/* две колонки */
+
+.one_flex{
+    display: grid;
+    grid-template-columns: 1.6fr 0.9fr;
+    gap: 120px;
+    align-items: start;
+}
+
+/* колонки */
+
+.left,
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+/* блок */
+
+.block{
+    width: 100%;
+}
+
+.block h2{
+    font-size: 22px;
+    margin-bottom: 34px;
+    padding-bottom: 18px;
+    border-bottom: 0.7px solid #ffffff;
+}
+
+/* элементы внутри */
+
+.item{
+    margin-bottom: 50px;
+}
+
+.item:last-child{
+    margin-bottom: 0;
+}
+
+h4{
+    font-size: 14px;
+    color: #7B7B7B;
+    margin-bottom: 22px;
+    font-weight: 400;
+}
+
+.title{
+    font-size: 24px;
+    line-height: 1.35;
+    margin-bottom: 18px;
+    max-width: 700px;
+}
+
+.desc{
+    font-size: 20px;
+    color: #CFCFCF;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+/* списки справа */
+
+.right ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.right li{
+    font-size: 22px;
+    color: #F1F1F1;
+}
+header {
+  position: fixed;
+  inset: 0 0 auto 0;           /* top:0 left:0 right:0 — исправлено, было width:100% без left */
+  z-index: 1000;
+  background: rgba(11, 11, 11, 0.55);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Внутренняя обёртка выравнивает контент по общему контейнеру */
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+
+/* Логотип */
+.logo {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* Список навигации — исправлено: было <ol>, теперь <ul> */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: clamp(1.5rem, 4vw, 80px);
+  align-items: center;
+  flex-wrap: nowrap;           /* предотвращает перенос пунктов на новую строку */
+}
+
+/* Ссылки навигации */
+nav a {
+  font-family: var(--font-heading);
+  font-size: 0.700rem;
+  font-weight: 400;
+  color: var(--gray-mid);
+  white-space: nowrap;
+  transition: color 0.25s ease;
+  position: relative;
+    text-decoration: none;
+}
+
+/* Анимированное подчёркивание */
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 1px;
+  background: var(--white);
+  transition: width 0.3s ease;
+}
+nav a:hover {
+  color: var(--white);
+}
+nav a:hover::after {
+  width: 100%;
+}
+
+:root {
+  --bg:          #0B0B0B;
+  --surface:     #101010;
+  --white:       #FFFFFF;
+  --gray-light:  #A5A5A5;
+  --gray-mid:    #6F6F6F;
+  --border:      rgba(255, 255, 255, 0.10);
+
+  /* Inter для заголовков и UI, Roboto для текста */
+  --font-heading: "Inter", sans-serif;
+  --font-body:    "Roboto", sans-serif;
+}
