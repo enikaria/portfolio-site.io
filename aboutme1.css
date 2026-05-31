@@ -327,3 +327,144 @@ nav a:hover::after {
   --font-heading: "Inter", sans-serif;
   --font-body:    "Roboto", sans-serif;
 }
+/* Планшеты */
+@media (max-width: 992px){
+
+    .container{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 56px;
+        margin-bottom: 60px;
+    }
+
+    .one_flex{
+        gap: 60px;
+    }
+
+    .left,
+    .right{
+        gap: 60px;
+    }
+
+    .title{
+        font-size: 22px;
+    }
+
+    .desc{
+        font-size: 18px;
+    }
+}
+
+
+/* Телефоны */
+@media (max-width: 768px){
+
+    .container{
+        width: 92%;
+    }
+
+    body{
+        padding-top: 90px;
+    }
+
+    /* шапка */
+    .header-inner{
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        padding: 15px 0;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* главный заголовок */
+    h1{
+        font-size: 42px;
+        margin-bottom: 40px;
+        line-height: 1.2;
+    }
+
+    /* две колонки в одну */
+    .one_flex{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .left,
+    .right{
+        gap: 50px;
+    }
+
+    .block h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .title{
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .desc{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .right li{
+        font-size: 18px;
+    }
+
+    .about{
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    .btn{
+        width: 130px;
+        height: 44px;
+        font-size: 15px;
+    }
+}
+
+
+/* Маленькие телефоны */
+@media (max-width: 480px){
+
+    h1{
+        font-size: 32px;
+    }
+
+    .title{
+        font-size: 18px;
+    }
+
+    .desc{
+        font-size: 14px;
+    }
+
+    .right li{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 12px;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+
+    nav a{
+        font-size: 12px;
+    }
+
+    .block h2{
+        font-size: 16px;
+    }
+}
