@@ -99,13 +99,13 @@ padding-top: 13%;
 }
 .big_text {    
     position: absolute;    
-    top: 60%;
+    top: 70%;
     transform: translateY(-50%);
     width: 120%;   
      z-index: 1;
-    font-family: "Inter", regular;
+    font-family: "Inter", sans-serif;
     font-size: 100px;    
-    line-height: 90%;
+    line-height: 100%;
     color: #6F6F6F;    
     margin-bottom: 180px;
     
