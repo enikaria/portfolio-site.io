@@ -100,12 +100,10 @@ background-color: #101010;
 
 
 .one_flex{
-
-   display: grid;
+    display: grid;
     grid-template-columns: 1.6fr 0.9fr;
+    grid-template-areas: "left right";
     gap: 120px;
-    align-items: start;
-
 }
 .flex{
     display: flex;
@@ -114,7 +112,11 @@ background-color: #101010;
     
 
 }
-
+.left { grid-area: left; }
+.right { grid-area: right; }
+.left, .right {
+    align-self: start;
+}
 .column {
     flex: 1;
 }
@@ -164,7 +166,7 @@ footer .container{
 
 h1{
     font-size: 72px;
-    margin-bottom: 90px;
+    margin: 0 0 60px 0;
     font-weight: 600;
 }
 
