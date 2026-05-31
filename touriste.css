@@ -99,7 +99,7 @@ padding-top: 13%;
 }
 .big_text {    
     position: absolute;    
-    top: 60%;
+    top: 40%;
     transform: translateY(-50%);
     width: 120%;   
      z-index: 1;
@@ -107,7 +107,7 @@ padding-top: 13%;
     font-size: 80px;    
     line-height: 90%;
     color: #6F6F6F;    
-    margin-bottom: 180px;
+    margin-bottom: 140px;
     
 }
 .program_image {
