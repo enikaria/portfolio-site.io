@@ -259,7 +259,6 @@ nav a:hover::after {
     gap: 40px;
 }
 .btn {
-  .btn {
     flex-shrink: 0;
     display: inline-flex;
     align-items: center;
@@ -273,7 +272,6 @@ nav a:hover::after {
     border-radius: 50px;
     text-decoration: none;
 }
-
 .btn:hover {
   background: var(--white);
   border-color: var(--white);
