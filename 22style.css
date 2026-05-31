@@ -58,6 +58,8 @@ p{
     font-family: "Roboto", sans-serif;
     font-size: clamp(16px, 2vw, 20px);
     color: #A5A5A5;
+   width: 60%;
+    color: #A5A5A5;
 }
 h7{
     font-family: "Roboto", sans-serif;
@@ -80,10 +82,9 @@ padding-top: 15%;
 
 .one_flex{
     display: flex;
-    justify-content: space-between; /* разносит в разные стороны */
-    align-items: center;            /* выравнивает по вертикали */
-    cursor: pointer;
-    gap: 20%;
+    justify-content: space-between;
+    align-items: center; /* кнопка и текст на одной линии */
+    gap: 40px;
 
 }
 .flex{
