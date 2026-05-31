@@ -241,6 +241,29 @@ nav a:hover::after {
   --font-heading: "Inter", sans-serif;
   --font-body:    "Roboto", sans-serif;
 }
+
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 50px;
+
+    background-color: #FFFFFF;
+    color: #101010;
+
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* Планшеты */
 @media (max-width: 992px) {
 
