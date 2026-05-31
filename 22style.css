@@ -58,8 +58,6 @@ p{
     font-family: "Roboto", sans-serif;
     font-size: clamp(16px, 2vw, 20px);
     color: #A5A5A5;
-   width: 60%;
-    color: #A5A5A5;
 }
 h7{
     font-family: "Roboto", sans-serif;
@@ -190,16 +188,6 @@ header {
   color: var(--white);
   text-decoration: none;
 }
-.service-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* кнопка и текст на одной линии */
-    gap: 40px;
-}
-.service-text {
-    width: 60%;
-    color: #A5A5A5;
-}
 /* Список навигации — исправлено: было <ol>, теперь <ul> */
 nav ul {
   list-style: none;
@@ -258,6 +246,13 @@ nav a:hover::after {
     align-items: center;
     gap: 40px;
 }
+
+.service-text {
+    flex: 1;          /* вместо width: 60% */
+    margin: 0;
+}
+
+
 .btn {
     flex-shrink: 0;
     display: inline-flex;
