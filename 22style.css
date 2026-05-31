@@ -255,7 +255,6 @@ nav a:hover::after {
 
 
 .btn {
-    flex-shrink: 0;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -263,16 +262,20 @@ nav a:hover::after {
     width: 150px;
     height: 50px;
 
-    background-color: #FFFFFF;
-    color: #101010;
+    background-color: transparent;   /* прозрачный фон */
+    color: #FFFFFF;                   /* белый текст */
+    border: 1px solid #FFFFFF;        /* белая обводка */
     border-radius: 50px;
+
     text-decoration: none;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
 }
+
 .btn:hover {
-  background: var(--white);
-  border-color: var(--white);
-  color: var(--bg);
-  transform: translateY(-2px);
+    background-color: #FFFFFF;  /* белый фон */
+    color: #101010;             /* чёрный текст */
 }
 
 /* Планшеты */
