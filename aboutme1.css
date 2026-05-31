@@ -100,11 +100,11 @@ background-color: #101010;
 
 
 .one_flex{
-    display: flex;
-    justify-content: space-between; /* разносит в разные стороны */
-    align-items: center;            /* выравнивает по вертикали */
-    cursor: pointer;
-    gap: 8%;
+
+   display: grid;
+    grid-template-columns: 1.6fr 0.9fr;
+    gap: 120px;
+    align-items: start;
 
 }
 .flex{
