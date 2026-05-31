@@ -157,10 +157,6 @@ footer .container{
     border-bottom: 1px solid #ffffff;
     padding-bottom: 15px;
 }
-
-.block h2::after {
-    display: none;
-}
 .about{
     padding-top: 170px;
     padding-bottom: 120px;
