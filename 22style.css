@@ -190,7 +190,16 @@ header {
   color: var(--white);
   text-decoration: none;
 }
-
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* кнопка и текст на одной линии */
+    gap: 40px;
+}
+.service-text {
+    width: 60%;
+    color: #A5A5A5;
+}
 /* Список навигации — исправлено: было <ol>, теперь <ul> */
 nav ul {
   list-style: none;
