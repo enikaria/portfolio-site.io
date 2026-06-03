@@ -380,7 +380,7 @@ nav a:hover::after {
   font-weight: 600;
   line-height: 1.15;
   color: var(--white);
-  max-width: 25ch;
+  max-width: 20ch;
   margin-bottom: clamp(2rem, 4vw, 3.5rem);
 }
 h2{
