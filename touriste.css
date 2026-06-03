@@ -1,0 +1,596 @@
+.roboto-uniquifier {                /*шрифт*/
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-uniquifier {                /*шрифт*/
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+body{                       /*цвет фона*/
+background-color: #101010;
+padding-top: 13%;
+
+}
+
+.hero{
+    margin-top: 60px;
+}
+
+.hero h1{
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+    gap: 90px;
+    margin-bottom: 90px;
+}
+
+.hero_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.left_block{
+    width: 85%;
+}
+
+.left_block img{
+    width: 100%;
+    
+    margin-bottom: 30px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description p{
+    color: #a1a1a1;
+    line-height: 160%;
+}
+
+.right_block{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.info h2{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.program_section {    
+    margin-top: 150px;
+    position: relative;
+    display: flex;    
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 700px;    
+    overflow: hidden;
+     gap: 100px;
+}
+.big_text {    
+    position: absolute;    
+    top: 60%;
+    transform: translateY(-50%);
+    width: 120%;   
+     z-index: 1;
+    font-family: "Inter", sans-serif;
+    font-size: 120px;    
+    line-height: 90%;
+    color: #6F6F6F;    
+    margin-bottom: 180px;
+    
+}
+.program_image {
+    position: relative;    z-index: 2;
+    width: 60%;
+}
+.program_image img {    width: 100%;
+    height: 1000px;    object-fit: cover;
+    
+float: right;
+}
+.left_content {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    min-height: 1000px;
+    position: relative;
+    gap: 450px;
+}
+.bottom_text {
+      color: #a1a1a1;
+    line-height: 160%;
+    margin-top: 80px;
+    gap: 100px;
+}    
+
+.infor p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #A5A5A5;
+    margin-top: 80px;
+}
+.program_card{
+    width: 500px;
+    background: white;
+    color: black;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.days{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+form input{
+    height: 55px;
+    border-radius: 12px;
+    border: 1px solid #d8d8d8;
+    padding-left: 20px;
+}
+
+.button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 28px;
+
+    background: transparent;
+    color: #ffffff;
+
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 999px;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: #ffffff;
+}
+
+.video_section {
+    margin-top: 150px;
+}
+
+.video_block{
+    width: 100%;
+    height: 500px;
+    background: #2a2a2a;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.contact_section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.contact_section h2{
+    font-size: 72px;
+    line-height: 110%;
+    margin-bottom: 50px;
+}
+
+.contact_links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.contact_links a {
+    color: #ffffff;
+    text-decoration: none;
+
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+}
+
+.or_text {
+    color: rgba(255, 255, 255, 0.5);
+
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+footer{
+    background-color: #101010;
+    padding: 5% 0;
+    color: rgb(0, 0, 0);
+    margin-top: 10%;
+    border-top: 0.5px solid #3B3939;
+
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+}
+.image_block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.info p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #A5A5A5;
+}
+h5{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    color: #FFFFFF;
+    }
+span{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    }
+    .container p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #A5A5A5;
+}
+header {
+  position: fixed;
+  inset: 0 0 auto 0;           /* top:0 left:0 right:0 — исправлено, было width:100% без left */
+  z-index: 1000;
+  background: rgba(11, 11, 11, 0.55);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Внутренняя обёртка выравнивает контент по общему контейнеру */
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+
+/* Логотип */
+.logo {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* Список навигации — исправлено: было <ol>, теперь <ul> */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: clamp(1.5rem, 4vw, 80px);
+  align-items: center;
+  flex-wrap: nowrap;           /* предотвращает перенос пунктов на новую строку */
+}
+
+/* Ссылки навигации */
+nav a {
+  font-family: var(--font-heading);
+  font-size: 0.700rem;
+  font-weight: 400;
+  color: var(--gray-mid);
+  white-space: nowrap;
+  transition: color 0.25s ease;
+  position: relative;
+    text-decoration: none;
+}
+
+/* Анимированное подчёркивание */
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 1px;
+  background: var(--white);
+  transition: width 0.3s ease;
+}
+nav a:hover {
+  color: var(--white);
+}
+nav a:hover::after {
+  width: 100%;
+}
+
+:root {
+  --bg:          #0B0B0B;
+  --surface:     #101010;
+  --white:       #FFFFFF;
+  --gray-light:  #A5A5A5;
+  --gray-mid:    #6F6F6F;
+  --border:      rgba(255, 255, 255, 0.10);
+
+  /* Inter для заголовков и UI, Roboto для текста */
+  --font-heading: "Inter", sans-serif;
+  --font-body:    "Roboto", sans-serif;
+}
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 1024px) {
+
+    body{
+        padding-top: 100px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .hero h1{
+        font-size: 48px;
+        margin-bottom: 60px;
+    }
+
+    .hero_flex{
+        flex-direction: column;
+    }
+
+    .left_block,
+    .right_block{
+        width: 100%;
+    }
+
+    .program_section{
+        flex-direction: column;
+        min-height: auto;
+        gap: 60px;
+        margin-top: 100px;
+    }
+
+    .big_text{
+        position: static;
+        transform: none;
+        width: 100%;
+        font-size: 80px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .left_content{
+        width: 100%;
+        min-height: auto;
+        gap: 60px;
+    }
+
+    .program_image{
+        width: 100%;
+    }
+
+    .program_image img{
+        height: 600px;
+    }
+
+    .program_card{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .contact_section h2{
+        font-size: 56px;
+    }
+
+    h5{
+        font-size: 60px;
+    }
+
+    .contact_links{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .contact_links a,
+    .or_text{
+        font-size: 24px;
+    }
+
+    .video_block{
+        height: 400px;
+    }
+
+    nav ul{
+        gap: 30px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+
+    *{
+        font-size: 16px;
+    }
+
+    body{
+        padding-top: 80px;
+    }
+
+    .container{
+        width: 92%;
+    }
+
+    .header-inner{
+        height: 60px;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+
+    nav ul{
+        gap: 15px;
+    }
+
+    nav a{
+        font-size: 12px;
+    }
+
+    .hero{
+        margin-top: 20px;
+    }
+
+    .hero h1{
+        font-size: 32px;
+        line-height: 120%;
+        margin-bottom: 40px;
+    }
+
+    .description p,
+    .info p,
+    .container p,
+    .infor p{
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .info h2{
+        font-size: 24px;
+    }
+
+    .right_block{
+        gap: 30px;
+    }
+
+    .program_section{
+        margin-top: 80px;
+        gap: 40px;
+    }
+
+    .big_text{
+        font-size: 42px;
+        line-height: 100%;
+        text-align: left;
+    }
+
+    .left_content{
+        gap: 40px;
+    }
+
+    .program_image img{
+        height: 350px;
+    }
+
+    .program_card{
+        width: auto;
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .days{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form input{
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .button{
+        width: 100%;
+        font-size: 20px;
+        padding: 14px 20px;
+    }
+
+    .video_section,
+    .contact_section{
+        margin-top: 80px;
+    }
+
+    .video_block{
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .contact_section h2{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .contact_links{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 40px;
+    }
+
+    .contact_links a,
+    .or_text{
+        font-size: 18px;
+    }
+
+    h5{
+        font-size: 40px;
+    }
+
+    span{
+        font-size: 16px;
+    }
+
+    footer{
+        margin-top: 80px;
+        padding: 40px 0;
+    }
+}
