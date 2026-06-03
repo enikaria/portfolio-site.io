@@ -18,6 +18,10 @@
     font-family: "Inter", sans-serif;
     font-size: 20px;
 }
+body{                       /*цвет фона*/
+background-color: #101010;
+padding-top: 15%;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -80,10 +84,6 @@ p{
     color: #A5A5A5;
 }
 
-}
-body{                       /*цвет фона*/
-background-color: #101010;
-padding-top: 15%;
 }
 footer{              /*цвет текста футера*/
     color: #6F6F6F;
