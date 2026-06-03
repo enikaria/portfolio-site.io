@@ -370,8 +370,8 @@ nav a:hover::after {
 
 
 .cta {
-  margin-bottom: 300px;
-  margin-top: 15%;
+  margin-bottom: 200px;
+  margin-top: 5%;
 }
 
 .cta-heading {
@@ -380,7 +380,7 @@ nav a:hover::after {
   font-weight: 600;
   line-height: 1.15;
   color: var(--white);
-  max-width: 25ch;
+  max-width: 40ch;
   margin-bottom: clamp(2rem, 4vw, 3.5rem);
 }
 h2{
