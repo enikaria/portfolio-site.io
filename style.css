@@ -291,6 +291,57 @@ nav a:hover::after {
   --font-heading: "Inter", sans-serif;
   --font-body:    "Roboto", sans-serif;
 }
+.cta {
+  margin-bottom: 200px;
+}
+
+.cta-heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 6vw, 80px);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--white);
+  max-width: 18ch;
+  margin-bottom: clamp(2rem, 4vw, 3.5rem);
+}
+
+.cta-heading em {
+  font-style: normal;
+  color: var(--gray-light);
+}
+
+/* Горизонтальный ряд действий */
+.cta-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.cta-divider {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  color: var(--gray-mid);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Ссылка Telegram */
+.cta-tg {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--white);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 2px;
+  transition: border-color 0.25s ease, color 0.25s ease;
+}
+.cta-tg:hover {
+  color: var(--gray-light);
+  border-color: var(--gray-light);
+}
 @media (max-width: 768px) {
 
     .container {
