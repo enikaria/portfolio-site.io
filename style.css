@@ -18,21 +18,17 @@
     font-family: "Inter", sans-serif;
     font-size: 20px;
 }
-body{                       /*цвет фона*/
-background-color: #101010;
-padding-top: 15%;
-}
 html {
     scroll-behavior: smooth;
-}
-html,
-body{
-    background-color: #101010;
 }
 .container{
     width: 60%;
     margin: 0 auto;
 
+}
+html,
+body{
+    background-color: #101010;
 }
 .logo{
     font-family: "Inter", sans-serif;
@@ -84,6 +80,9 @@ p{
     color: #A5A5A5;
 }
 
+body{                       /*цвет фона*/
+background-color: #101010;
+padding-top: 15%;
 }
 footer{              /*цвет текста футера*/
     color: #6F6F6F;
@@ -159,27 +158,29 @@ footer .container{
 }
 .button {
   
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 150px;
-    height: 50px;
-
-    background-color: transparent;   /* прозрачный фон */
-    color: #FFFFFF;                   /* белый текст */
-    border: 1px solid #FFFFFF;        /* белая обводка */
-    border-radius: 50px;
-
-    text-decoration: none;
-    cursor: pointer;
-
-    transition: all 0.3s ease;
+   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 191px;
+  height: 55px;
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--white);
+  background: transparent;
+  border: 0,7px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.25s ease, border-color 0.25s ease,
+              color 0.25s ease, transform 0.2s ease;
 }
 
 .button:hover {
-   background-color: #FFFFFF;  /* белый фон */
-    color: #101010;             /* чёрный текст */
+ background: var(--white);
+  border-color: var(--white);
+  color: var(--bg);
+  transform: translateY(-2px);
 }
 .btn {
     display: inline-flex;
@@ -278,19 +279,17 @@ nav a:hover {
 nav a:hover::after {
   width: 100%;
 }
-
-:root {
-  --bg:          #0B0B0B;
-  --surface:     #101010;
-  --white:       #FFFFFF;
-  --gray-light:  #A5A5A5;
-  --gray-mid:    #6F6F6F;
-  --border:      rgba(255, 255, 255, 0.10);
-
-  /* Inter для заголовков и UI, Roboto для текста */
-  --font-heading: "Inter", sans-serif;
-  --font-body:    "Roboto", sans-serif;
+.btn-outline-lg {
+  width: 320px;
+  height: 65px;
+  font-size: 20px;
+  /* Исправлено: border-color был задан, но border-style отсутствовал */
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
+
+/* ─────────────────────────────────────────
+   CTA / КОНТАКТЫ
+   ───────────────────────────────────────── */
 .cta {
   margin-bottom: 200px;
 }
@@ -341,6 +340,19 @@ nav a:hover::after {
 .cta-tg:hover {
   color: var(--gray-light);
   border-color: var(--gray-light);
+}
+
+:root {
+  --bg:          #0B0B0B;
+  --surface:     #101010;
+  --white:       #FFFFFF;
+  --gray-light:  #A5A5A5;
+  --gray-mid:    #6F6F6F;
+  --border:      rgba(255, 255, 255, 0.10);
+
+  /* Inter для заголовков и UI, Roboto для текста */
+  --font-heading: "Inter", sans-serif;
+  --font-body:    "Roboto", sans-serif;
 }
 @media (max-width: 768px) {
 
