@@ -172,7 +172,7 @@ form input{
     padding-left: 20px;
 }
 
-.button {
+.button{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -199,7 +199,7 @@ form input{
     border-color: #ffffff;
 }
 
-.video_section{
+.video_section {
     margin-top: 150px;
 }
 
@@ -363,4 +363,234 @@ nav a:hover::after {
   /* Inter для заголовков и UI, Roboto для текста */
   --font-heading: "Inter", sans-serif;
   --font-body:    "Roboto", sans-serif;
+}
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 1024px) {
+
+    body{
+        padding-top: 100px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .hero h1{
+        font-size: 48px;
+        margin-bottom: 60px;
+    }
+
+    .hero_flex{
+        flex-direction: column;
+    }
+
+    .left_block,
+    .right_block{
+        width: 100%;
+    }
+
+    .program_section{
+        flex-direction: column;
+        min-height: auto;
+        gap: 60px;
+        margin-top: 100px;
+    }
+
+    .big_text{
+        position: static;
+        transform: none;
+        width: 100%;
+        font-size: 80px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .left_content{
+        width: 100%;
+        min-height: auto;
+        gap: 60px;
+    }
+
+    .program_image{
+        width: 100%;
+    }
+
+    .program_image img{
+        height: 600px;
+    }
+
+    .program_card{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .contact_section h2{
+        font-size: 56px;
+    }
+
+    h5{
+        font-size: 60px;
+    }
+
+    .contact_links{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .contact_links a,
+    .or_text{
+        font-size: 24px;
+    }
+
+    .video_block{
+        height: 400px;
+    }
+
+    nav ul{
+        gap: 30px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+
+    *{
+        font-size: 16px;
+    }
+
+    body{
+        padding-top: 80px;
+    }
+
+    .container{
+        width: 92%;
+    }
+
+    .header-inner{
+        height: 60px;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+
+    nav ul{
+        gap: 15px;
+    }
+
+    nav a{
+        font-size: 12px;
+    }
+
+    .hero{
+        margin-top: 20px;
+    }
+
+    .hero h1{
+        font-size: 32px;
+        line-height: 120%;
+        margin-bottom: 40px;
+    }
+
+    .description p,
+    .info p,
+    .container p,
+    .infor p{
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .info h2{
+        font-size: 24px;
+    }
+
+    .right_block{
+        gap: 30px;
+    }
+
+    .program_section{
+        margin-top: 80px;
+        gap: 40px;
+    }
+
+    .big_text{
+        font-size: 42px;
+        line-height: 100%;
+        text-align: left;
+    }
+
+    .left_content{
+        gap: 40px;
+    }
+
+    .program_image img{
+        height: 350px;
+    }
+
+    .program_card{
+        width: auto;
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .days{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form input{
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .button{
+        width: 100%;
+        font-size: 20px;
+        padding: 14px 20px;
+    }
+
+    .video_section,
+    .contact_section{
+        margin-top: 80px;
+    }
+
+    .video_block{
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .contact_section h2{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .contact_links{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 40px;
+    }
+
+    .contact_links a,
+    .or_text{
+        font-size: 18px;
+    }
+
+    h5{
+        font-size: 40px;
+    }
+
+    span{
+        font-size: 16px;
+    }
+
+    footer{
+        margin-top: 80px;
+        padding: 40px 0;
+    }
 }
