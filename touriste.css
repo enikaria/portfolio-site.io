@@ -380,7 +380,11 @@ nav a:hover::after {
   max-width: 18ch;
   margin-bottom: clamp(2rem, 4vw, 3.5rem);
 }
-
+h2{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(28px, 5vw, 60px);
+    color: #FFFFFF;
+}
 .cta-heading em {
   font-style: normal;
   color: var(--gray-light);
