@@ -422,6 +422,41 @@ h2{
   color: var(--gray-light);
   border-color: var(--gray-light);
 }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 191px;
+  height: 55px;
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--white);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  /* Исправлено: transition отсутствовал в оригинале */
+  transition: background 0.25s ease, border-color 0.25s ease,
+              color 0.25s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--bg);
+  transform: translateY(-2px);
+}
+
+/* Большая кнопка CTA */
+.btn-outline-lg {
+  width: 320px;
+  height: 65px;
+  font-size: 20px;
+  /* Исправлено: border-color был задан, но border-style отсутствовал */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
 /* =========================
    TABLET
 ========================= */
