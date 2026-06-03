@@ -18,6 +18,9 @@
     font-family: "Inter", sans-serif;
     font-size: 20px;
 }
+html {
+    scroll-behavior: smooth;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -367,8 +370,8 @@ nav a:hover::after {
 
 
 .cta {
-  margin-bottom: 200px;
-  margin-top: 5%;
+  margin-bottom: 300px;
+  margin-top: 15%;
 }
 
 .cta-heading {
